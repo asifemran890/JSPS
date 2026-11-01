@@ -4,7 +4,7 @@
 
 // The first time the returned function is called, it should return the same result as fn.
 // Every subsequent time it is called, it should return undefined.
-
+   // hello 
 /**
  * @param {Function} fn
  * @return {Function}
@@ -18,7 +18,7 @@ var once = function (fn) {
     }
   };
 };
-console.log(once((a, b, c) => a + b + c)(1, 2, 3));
+// console.log(once((a, b, c) => a + b + c)(1, 2, 3));
 
 /**
  * let fn = (a,b,c) => (a + b + c)
